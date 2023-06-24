@@ -1,0 +1,17 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Use Renovate configuration for Cake.Issues addins",
+    "extends": [
+        "github>cake-contrib/renovate-presets"
+    ],
+    "packageRules": [
+        {
+            "description": "Group Cake.Issues dependencies",
+            "matchManagers": ["nuget"],
+            "matchPackagePatterns": [
+                "Cake.Issues"
+            ],
+            "groupName": "Cake.Issues"
+        }
+    ]
+}
