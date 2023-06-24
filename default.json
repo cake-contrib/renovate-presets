@@ -1,0 +1,10 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Default Renovate configuration for repositories in this organization",
+    "extends": [
+        "config:base"
+    ],
+    "labels": [
+        "dependencies"
+    ]
+}
