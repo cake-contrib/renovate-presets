@@ -1,0 +1,21 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Renovate configuration for repositories using GitHub Actions",
+    "extends": [
+        "github>cake-contrib/renovate-presets",
+        "helpers:pinGitHubActionDigests"
+    ],
+    "packageRules": [
+        {
+            "matchPackagePrefixes": [
+                "actions/"
+            ],
+            "labels": [
+                "build"
+            ],
+            "automerge": true,
+            "automergeType": "pr",
+            "platformAutomerge": true
+        }
+    ]
+}

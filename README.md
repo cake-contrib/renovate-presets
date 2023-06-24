@@ -13,10 +13,11 @@ This repository contains [shared presets] for [Renovate] used in the repositorie
 
 ## Available presets
 
-| Preset                                             | Description                                          |
-|----------------------------------------------------|------------------------------------------------------|
-| `github>cake-contrib/renovate-presets`             | [Default configuration](default.json)                |
-| `github>cake-contrib/renovate-presets:cake-issues` | [Configuration Cake.Issues addins](cake-issues.json) |
+| Preset                                                | Description                                             |
+|-------------------------------------------------------|---------------------------------------------------------|
+| `github>cake-contrib/renovate-presets`                | [Default configuration](default.json)                   |
+| `github>cake-contrib/renovate-presets:github-actions` | [Configuration for GitHub actions](github-actions.json) |
+| `github>cake-contrib/renovate-presets:cake-issues`    | [Configuration Cake.Issues addins](cake-issues.json)    |
 
 [shared presets]: https://docs.renovatebot.com/config-presets/
 [Renovate]: https://renovatebot.com/
