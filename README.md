@@ -16,8 +16,9 @@ This repository contains [shared presets] for [Renovate] used in the repositorie
 | Preset                                                | Description                                                                  |
 |-------------------------------------------------------|------------------------------------------------------------------------------|
 | `github>cake-contrib/renovate-presets`                | [Default configuration](default.json)                                        |
+| `github>cake-contrib/renovate-presets:cake-issues`    | [Configuration for Cake.Issues addins](cake-issues.json)                     |
+| `github>cake-contrib/renovate-presets:cake-recipe`    | [Configuration for Cake.Recipe based addins](cake-recipe.json)               |
 | `github>cake-contrib/renovate-presets:frosting-addin` | [Additional configuration for addins for Cake Frosting](frosting-addin.json) |
-| `github>cake-contrib/renovate-presets:cake-issues`    | [Configuration Cake.Issues addins](cake-issues.json)                         |
 
 [shared presets]: https://docs.renovatebot.com/config-presets/
 [Renovate]: https://renovatebot.com/
