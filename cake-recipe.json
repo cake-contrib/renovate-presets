@@ -6,7 +6,7 @@
     ],
     "packageRules": [
         {
-            "description": "do not update cake.tool - it is pinned by cake.recipe",
+            "description": "Do not update Cake.Tool since it is pinned by Cake.Recipe",
             "matchFileNames": [".config/dotnet-tools.json"],
             "matchDepNames": ["cake.tool"],
             "enabled": false
