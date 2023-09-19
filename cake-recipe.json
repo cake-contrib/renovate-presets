@@ -1,0 +1,15 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Use Renovate configuration for Cake.Recipe based builds",
+    "extends": [
+        "github>cake-contrib/renovate-presets"
+    ],
+    "packageRules": [
+        {
+            "description": "Do not update Cake.Tool since it is pinned by Cake.Recipe",
+            "matchFileNames": [".config/dotnet-tools.json"],
+            "matchDepNames": ["cake.tool"],
+            "enabled": false
+        }
+    ]
+}
