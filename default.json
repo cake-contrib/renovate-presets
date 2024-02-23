@@ -1,10 +1,23 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "description": "Default Renovate configuration for repositories in this organization",
+    "description": "Use default Renovate configuration for cake-contrib repositories",
     "extends": [
-        "config:base"
+        "config:best-practices"
     ],
     "labels": [
         "dependencies"
+    ],
+    "packageRules": [
+        {
+            "description": "Ignore Cake minor and patch updates",
+            "matchManagers": ["nuget"],
+            "matchDepNames": [
+                "Cake.Core",
+                "Cake.Common",
+                "Cake.Testing"
+            ],
+            "matchUpdateTypes": ["minor", "patch"],
+            "enabled": false
+        }
     ]
 }
