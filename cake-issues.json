@@ -9,7 +9,8 @@
             "description": "Group Cake.Issues dependencies",
             "matchManagers": ["nuget"],
             "matchPackagePatterns": [
-                "Cake.Issues"
+                "Cake.Issues",
+                "Cake.Frosting.Issues"
             ],
             "groupName": "Cake.Issues"
         }
